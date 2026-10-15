@@ -1,0 +1,37 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Pytest & Test Caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit local settings & secrets
+.streamlit/secrets.toml
+
+# Whisper cache & model checkpoints
+.cache/
+whisper_models/
+*.pt
+
+# Temporary audio files & uploads
+temp_audio/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
